@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Portfolio</title>
   <!-- css link add here -->
-  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="index.css">
   <!-- font-awesome link add here -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,13 +14,21 @@
    <div class="container">
   <header>
     <h2><a href="#" class="logo">Portfolio</a></h2>
-    <nav class="navber">
-      <a href="#" class="active">Home</a>
-      <a href="#">About</a>
-      <a href="#">Project</a>
-      <a href="#">Education</a>
-      <a href="#">Contact</a>
-    </nav>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check">
+          <i class="fa-solid fa-bars" id="open"></i>
+          <i class="fa-solid fa-xmark" id="close"></i>
+      </label>
+      <img src="assets/logo.png" alt="">
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Log in</a></li>
+      </ul>
+  </nav>
   </header>
   <section class="home">
     <div class="home-detail">
@@ -41,7 +49,7 @@
     </div>
     <div class="home-img">
       <div class="img-box">
-        <img src="/Afroja/1736491315482.jpg" alt="">
+        <img src="/portfolio/pic2.jpg" alt="">
       </div>
     </div>
   </section>
@@ -74,6 +82,17 @@
           <p>A responsive blog platform with user authentication and comenting system.</p>
         </div>
       </div>
+      <!-- <div>
+        <h1>
+          My Skills
+        </h1>
+        <div class="project-grid">
+          <i class="fas fa-home"></i> Home
+
+
+        </div>
+
+      </div> -->
     </div>
   </section>
 <!-- Projects-2 Section -->
@@ -82,17 +101,17 @@
     <h2>My Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <img src="/Afroja/1736491322696.jpg" alt="Project 1">
+        <img src="/portfolio/pic3.jpg" alt="Project 1">
         <h3>Project 1</h3>
         <p>A web application that allows users to manage their tasks efficiently.</p>
       </div>
       <div class="project-card">
-        <img src="/Afroja/1736491318104.jpg" alt="Project 2">
+        <img src="/portfolio/pic1.jpg" alt="Project 2">
         <h3>Project 2</h3>
         <p>An interactive portfolio website that showcases my web development skills.</p>
       </div>
       <div class="project-card">
-        <img src="/Afroja/1736491320291.jpg" alt="Project 3">
+        <img src="/portfolio/pic3.jpg" alt="Project 3">
         <h3>Project 3</h3>
         <p>A responsive e-commerce site for buying and selling products online.</p>
       </div>
